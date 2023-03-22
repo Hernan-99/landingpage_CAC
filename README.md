@@ -14,3 +14,6 @@ tamaños de pantalla. Por ejemplo, usar medidas relativas(por ej. % y viewport) 
 absolutas(px).
 Subir el sitio creado a GitHub Pages (Opcional)
 Fecha de Entrega : jueves 30 de marzo.
+
+### Tecnologias:
+HTML - CSS
