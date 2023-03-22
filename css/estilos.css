@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+}
+header {
+  padding: 2rem;
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 1rem;
+}
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.logo-container img {
+  width: 80px;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+}
+
+/* ------------------- SERVICIOS ------------------- */
+.container {
+  width: 100%;
+}
+.service-container {
+  padding: 2rem;
+
+  margin-bottom: 5rem;
+}
+.service-container .content-info {
+  text-align: center;
+}
+
+.service-container .content-info h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+/* ------------ CARDS ------------- */
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+.container-cards .card {
+  width: 18rem;
+  background-color: rgba(0, 0, 0, 0.397);
+  padding: 3rem 1rem;
+  border-radius: 1rem;
+  color: #1d1d1d;
+  margin-bottom: 2rem;
+}
+
+.container-cards .card .card-header {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.container-cards .card .card-header,
+.container-cards .card .card-body {
+  text-align: center;
+}
+
+/* ------------- */
+.trabajo-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+.trabajo-container figure img {
+  width: 21.875rem;
+}
+
+.trabajo-container .trabajo-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+.trabajo-container .trabajos-text {
+  width: 60%;
+}
+
+.trabajo-container h5 {
+  font-size: 1.5rem;
+}
+
+.trabajo-container p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+/* ----------   */
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+form h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+form input,
+form textarea,
+form select {
+  width: 100%;
+  display: block;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  resize: none;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 484px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+}
